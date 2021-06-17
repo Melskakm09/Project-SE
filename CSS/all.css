@@ -1,0 +1,580 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9e076;
+}
+
+
+.profile img{
+    height: 100px;
+    width: 300px;
+}
+
+.notif img{
+    height: 50px;
+    width: 50px;
+}
+
+
+.navbar-kiri{
+    align-items: center;
+    display: flex;
+    align-content: flex-end;
+} 
+
+.navbar-kanan{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+
+.notif img{
+    padding-right: 100px;
+
+}
+
+.logo img{
+    height: 100px;
+    width: 300px;
+}
+
+@media (max-width: 900px){
+    .img-container img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+    
+
+
+/* HOME */
+
+.body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+/* IMAGE SLIDER */
+.desc-slider{
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-btn{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    background-color: white;
+    padding: 8px;
+    transition: all 200ms ease-in-out;
+}
+
+.slider-btn:hover{
+    background-color: lightgray;
+}
+
+.left-btn{
+    left: 16px;
+}
+.right-btn{
+    right: 16px;
+}
+
+.img-container{
+    display: flex;
+    transition: all 200ms ease-in-out;
+    
+}
+
+.img-container img{
+    width: 100%;
+    height: 10%;
+    flex-shrink: 0;
+    object-fit: cover;
+    
+}
+
+/* MENU BAR */
+.menu-bar{
+    padding-top: 5%;
+}
+
+.food{
+    background-color: #f9e076;
+    width: 120px;
+    height: 100px;
+    align-items: center;
+}
+
+.delivery{
+    background-color: #f9e076;
+    width: 120px;
+    height: 100px;
+    align-items: center; 
+}
+
+.food img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.delivery img{
+    height: 100px;
+    width: 100px;
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc{
+    text-align: center;
+}
+
+/* SIGN IN */
+.content{
+    background-color: #413605;
+    height: 100vh;
+}
+
+.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.top{
+    padding-top: 3%;
+}
+
+.logo-signin{
+    padding-top: 10%;
+}
+
+.signin-button{
+    padding-left: 50%;
+    padding-bottom: 1%;
+    padding-left: 45%;
+}
+
+.signin-button img{
+    width: 200px;
+    height: 50px;
+}
+
+
+/* PAGE KOPI */
+.header2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9E076;
+}
+
+.back-button{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.tulisan{
+    /* padding-top: 1%; */
+    padding-right: 45%;
+}
+
+.atas{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.atas1{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.atas2{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-kopi{
+    background-color:antiquewhite;
+}
+.content-kopi img{
+    width: 500px;
+    height: 200px;
+}
+
+/* CATEGORY */
+.body-category{
+    background-color:wheat;
+}
+
+.title{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    color: black;
+}
+
+.gambar img{
+    height: 200px;
+    width: 200px;
+}
+
+.desc{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bagian{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gambar:hover{
+    opacity: 50%;
+}
+
+.vou img{
+    width: 800px;
+    height: 70px;
+}
+
+.vou{
+    padding-left: 25%;
+    background-color: antiquewhite;
+}
+
+
+/* DELIVERY */
+.tulisan-deliv{
+    padding-top: 1%;
+    padding-right: 45%;
+}
+
+.tulisan-deliv img{
+    height: 50px;
+    width: 200px;
+}
+
+.location{
+    text-align: center;
+}
+
+.search{
+    padding-top: 3%;
+}
+
+.search2{
+    padding-top: 5%;
+}
+
+.confirm{
+padding-top: 5%;
+padding-left: 44%;
+}
+
+.confirm img{
+    width: 200px;
+    height: 50px;
+}
+
+/* MAPS 1 & 2 */
+.body-maps{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Image/maps1.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.confirm-maps img{
+    width: 200px;
+    height: 50px;
+    padding-top: 47%;
+    padding-left: 50%;
+}
+
+.address img{
+    background-color: #f9e076;
+    width: 200px;
+    height: 50px;
+}
+
+/* ACCOUNT */
+.profil{
+    padding-top: 5%;
+    padding-left: 45%;
+}
+.profil img{
+    width: 200px;
+    height: 200px;
+}
+
+.nama{
+    text-align: center;
+    padding-left: 4%;
+}
+
+.address{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.email{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.phone{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.body-account{
+    height: 100vh\;
+}
+
+
+/* --GO FOOD, GRAB FOOD, SHOPEE FOOD CSS-- */
+/* button */
+
+.button {
+    font-size: 50px;
+    border: cadetblue;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+
+.button :hover{
+    opacity: 0.9;
+}
+
+
+
+/* voucher */
+
+.button{
+    padding-top: 3%;
+ 
+}
+.gambar-voucher-gofood{
+    background-color:antiquewhite;
+}
+
+.voucher-pict img{
+    height: 200px ;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.voucher-pict1 img{
+    height: 400px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.body-voucher{
+    background-color:antiquewhite;
+}
+
+/* JANJIW */
+/* header2 */
+.header1-janjiw{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: sandybrown;
+}
+
+.header1-janjiw > h1{
+    font-family: 'Lucida Sans';
+}
+
+.navbar1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 20 px;
+}
+
+.DeliverTo{
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: x-large;
+}
+
+.body-orders{
+    background-color:antiquewhite;
+}
+
+.my-order{
+    font-family: 'Lucida Sans';
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.partt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.order-pict{
+    width: 400px;
+    /* height: 400px; */
+    padding-bottom: 50px;
+}
+
+.order-pict :hover{
+    opacity: 0.7;
+}
+
+.totalprice{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9e076;
+}
+
+.totalprice img{
+    width: 50px;
+    height: 50px;
+}
+
+.totalprice img:hover{
+    opacity: 0.6;
+}
+
+/* CATEGORY */
+.body-category{
+    background-color:antiquewhite
+}
+
+.title{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    color: black;
+}
+
+.gambar img{
+    height: 200px;
+    width: 200px;
+}
+
+.desc{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.bagian{
+    display: flex;
+    justify-content: space-around;
+}
+.gambar:hover{
+    opacity: 50%;
+}
+
+
+/* FOOD PRICELIST */
+.pricelist{
+    display: flex;
+    background-color: #f9e076;
+    justify-content: center;
+}
+
+.body-pricelist{
+    background-color: seashell;
+    /* display: flex; */
+    align-items: center;
+}
+
+.price-gofood{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.price-gofood img{
+    width: 200px;
+    height: 200px;
+}
+
+.price-gofood img:hover{
+    opacity: 0.7;
+}
+
+.price-grabfood{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.price-grabfood img{
+    width: 200px;
+    height: 200px;
+}
+
+.price-grabfood img:hover{
+    opacity: 0.7;
+}
+
+.price-shopeefood{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.price-shopeefood img{
+    width: 200px;
+    height: 200px;
+}
+
+.price-shopeefood img:hover{
+    opacity: 0.7;
+}
+
+/* Delivery PRICELIST */
+
+.bawahan {
+    padding-top: 5%;
+}

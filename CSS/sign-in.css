@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* SIGN IN */
+.content{
+    background-color: #f9E076;
+}
+
+.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    color: black;
+}
+
+.top{
+    padding-top: 3%;
+}
+
+.logo-signin{
+    padding-top: 10%;
+}
+
+.signin-button{
+    padding-left: 50%;
+    padding-bottom: 1%;
+    padding-left: 45%;
+}
+
+.signin-button img{
+    width: 200px;
+    height: 50px;
+}
+
+/* OPENING */
+.content-op{
+    height: 100vh;
+    background-color: #f9E076;
+}
+
+.logo-op{
+    padding-top: 10%;
+}
+
+.login img{
+    width: 300px;
+    height: 80px;
+    padding-top: 10%;
+    padding-left: 41%;
+}
+
+.create img{
+    width: 300px;
+    height: 90px;
+    padding-left: 41%;
+}
