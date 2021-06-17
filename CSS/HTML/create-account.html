@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../CSS/sign-in.css"> 
+    <script src = "../JS/create.js" defer></script>
+</head>
+<body>
+
+    <div class="content">
+        <div class="logo-signin">
+            <center>
+                <img src="../image/logo.png" width="500px"  height="200px">
+            </center>
+        </div>
+
+        <div class="top">
+           <center> <h1>Create Account</h1> </center>
+        </div>
+
+        <div class="form">
+            <form action="formData">
+                <br><br>
+                <table>
+                        <tr>
+                            <td>
+                                <label for="username"><H2>Username</H2></label>
+                            </td>
+                            <td>
+                                <input type="text" name="username" id="username">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="gender"><H2>Gender</H2></label>
+                            </td>
+                            <td>
+                                <div class="female">
+                                    <input type="radio" name="female" id="female">
+                                    <label for="female">Female</label>
+                                </div>
+                                <div class="male">
+                                    <input type="radio" name="gender" id="male">
+                                    <label for="male">Male</label>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email"> <H2>Email</H2></label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <label for="phonenumber"><H2>Phonenumber</H2></label>
+                            </td>
+                            <td>
+                                <input type="text" name="phonenumber" id="phonenumber">
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label for="password"><H2>Password</H2></label>
+                            </td>
+                            <td>
+                                <input type="password" name="password" id="password">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="address"><H2>Address</H2></label>
+                            </td>
+                            <td>
+                                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr>
+                    
+                    <tr>
+                        <td colspan="2">
+                            <div id="error" style="color: red"></div>
+                        </td>
+                    </tr>
+                    <td>
+                    </td>
+                    <td></td>
+                    <tr>
+                        <td>
+                            <input type="button" value="Submit" onclick="validateAll()">   
+                            <input type="button" value="Cancel" onclick="resetForm()">
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br>
+            </form>
+        </div>
+
+    <div class = "signin-button">
+        <a href="home.html">
+         <img src="../image/create.png" alt="">
+        </a>
+    </div>
+</div>     
+    
+
+
+</body>
+</html>
